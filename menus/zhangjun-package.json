@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle zhangjun-package",
+        "command": "zhangjun-package:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "zhangjun-package",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "zhangjun-package:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
